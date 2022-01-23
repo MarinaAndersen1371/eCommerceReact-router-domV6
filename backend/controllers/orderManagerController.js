@@ -72,7 +72,7 @@ const updateRefundPaid = asyncHandler(async (req, res) => {
   const order = await Order.findById(req.params.id);
   if (order) {
     order.refund = true;
-    order.refunddAt = Date.now();
+    order.refundAt = Date.now();
 
     const updatedOrder = await order.save();
     res.json(updatedOrder);
