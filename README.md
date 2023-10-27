@@ -1,5 +1,5 @@
 # eCommerce platform built with the MERN stack & Redux.
-## The  Project can be found [here](https://productmarwebtrade.herokuapp.com/)
+
 
 ![alt text](https://github.com/MarinaAndersen1371/marwebtrade/blob/main/frontend/public/images/trade.jpg)
 
