@@ -1,3 +1,6 @@
+import mongoose from "mongoose";
+import express from "express";
+import colors from "colors";
 import dotenv from "dotenv";
 import products from "./data/products.js";
 import customers from "./data/customers.js";
